@@ -1,0 +1,294 @@
+
+.container-fluid{
+    background-color:rgb(249, 231, 234);    
+}
+
+.text h1{
+    margin-top: 15%;
+    margin-left: 15%;   
+    color: rgb(147, 37, 37);
+    font-weight: bold;
+}
+
+.text p{
+    margin-left: 15%;
+}
+
+.btn1{
+    margin-left: 15%;
+    margin-top: 15px;
+    background-color: orangered;
+    border-radius: 50px;
+    color: white;
+    width: 22%;
+    font-weight: bold;
+    border: none;
+    height: 45px;
+
+}
+
+@media only screen and (max-width: 600px) {
+   .btn1{
+    width: 100px;
+    height: 40px;
+   }
+}
+
+  
+
+.btn1:hover{
+
+    color: black;
+    background-color: white;
+    transition: 0.7s;
+}
+
+
+.text i{
+    color: orangered;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.navbar .nav-item{
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+}
+.navbar .nav-item:hover{
+    color:orangered;
+    border: 3px solid orangered;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    transition: 0.3s;
+   
+    
+}
+
+.imgbg{
+    background-image:url(/assets/gallery/rest1.jpg);
+    height: 600px;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+
+
+.imgbg1 :hover{
+    color: orangered;
+    border: 2px solid orangered;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+}
+
+
+
+.text{
+    margin-top: 5%;    
+    color: rgb(147, 37, 37);
+    font-weight: bold;
+    font-family: "Sofia", sans-serif;
+   
+
+}
+
+
+.mylink a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.mylink:hover{
+    color: orangered;
+    padding-bottom:10px;
+    border-bottom: 3px solid orangered;
+    transition: 0.3s;
+}
+.mylink a:hover{
+    color: orangered;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.img2{
+    background-image: url(/assets/gallery/rest2.jpg);
+    height: 100%;
+    border-radius: 5%;
+    margin-left: 15%;
+    background-size: cover;
+    filter: grayscale(100%);
+   
+}
+
+.img2:hover{
+    filter: grayscale(0);
+    transition: 0.8s;
+}
+
+
+
+.card{
+    cursor: pointer;
+    box-shadow: 1px 3px 18px orangered;
+
+}
+.card:hover{
+    border: none;
+    box-shadow: 0px 2px 4px orangered;
+    transition: 0.6s;
+    
+}
+.card .fa{
+    color: orangered;
+}
+.card h3{
+    font-family: comic sans Ms;
+    font-weight: bold;
+}
+
+
+.card h4{
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+
+}
+
+.img-fluid{
+    border-radius: 50%;
+    width: 80%  ;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+
+
+
+/* ------------------ Slider 2  --------- */ 
+
+
+.card2{
+    border: 1px solid rgb(176, 176, 176);
+}
+
+.card2 .img-fluid{
+    width: 25%;
+    margin-top: 10%;
+    margin-right:15% ;
+
+}
+
+.card2 .card-title{
+    color: orangered;
+    font-size: 15px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+/* -----------footer -----------*/
+
+.footerfa .fa{
+    color: red;
+    font-size: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.footerfa p{
+    font-size: 15px;
+}
+
+
+.footerfa a {
+    text-decoration: none;
+    color: black;
+    margin-top: 8%;
+   
+}
+.footerli ul li {
+   
+    list-style-type: none;
+    font-size: 14px;
+  
+
+    
+    
+}
+
+.footerli ul li a{
+    text-decoration: none;
+    color: black;
+    margin-top: 8%;
+   
+}
+
+
+.footerli ul li a:hover{    
+    color: orangered;
+    text-decoration: 1px dashed orangered;
+   
+}
+
+.footerli a{
+    color: orangered;
+    margin-top: 8%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+/* /* ----------------------menu menu
+/* ----------------------menu menu PAGE
+/* ----------------------menu menu */
+                                                        
+
+
+.card-body a{
+    text-decoration: none;
+    color: rgb(252, 112, 62);
+
+}
+
+.card-body a:hover{
+    text-decoration: none;
+    color: rgb(255, 68, 0);
+    font-weight: bold;
+  
+
+}
+
+.card .img-fluid{
+    width: 50%;
+    
+}
+
+
+
+@media only screen and (max-width: 600px ) { 
+
+.hidebtn{
+    display: none;
+    
+}  
+}
