@@ -68,7 +68,7 @@
 }
 
 .imgbg{
-    background-image:url(/assets/gallery/rest1.jpg);
+    background-image:url(../assets/gallery/rest1.jpg);
     height: 600px;
     background-size: cover;
     opacity: 0.8;
@@ -116,7 +116,7 @@
 }
 
 .img2{
-    background-image: url(/assets/gallery/rest2.jpg);
+    background-image: url(../assets/gallery/rest2.jpg);
     height: 100%;
     border-radius: 5%;
     margin-left: 15%;
